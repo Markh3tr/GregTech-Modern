@@ -504,7 +504,7 @@ public class FirstDegreeMaterials {
                 .components(Chromium, 1, Aluminium, 2, Oxygen, 3)
                 .buildAndRegister();
 
-        Salt = new Material.Builder(GTCEu.id("salt"))
+        Salt = new Material.Builder(GTCEu.id("halite (salt)"))
                 .gem(1).ore(2, 1)
                 .color(0xFAFAFA).iconSet(FINE)
                 .flags(NO_SMASHING)
@@ -1158,7 +1158,7 @@ public class FirstDegreeMaterials {
                 .components(Nitrogen, 1, Oxygen, 1)
                 .buildAndRegister();
 
-        Iron3Chloride = new Material.Builder(GTCEu.id("iron_iii_chloride"))
+        Iron3Chloride = new Material.Builder(GTCEu.id("ferric_chloride"))
                 .fluid()
                 .color(0x060B0B)
                 .flags(DECOMPOSITION_BY_ELECTROLYZING)
