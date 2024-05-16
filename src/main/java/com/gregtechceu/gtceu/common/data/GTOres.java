@@ -664,7 +664,7 @@ public class GTOres {
             .layeredVeinGenerator(generator -> generator
                     .withLayerPattern(() -> GTLayerPattern.builder(OVERWORLD_RULES)
                             // .layer(l -> l.weight(2).state(Blocks.STONE::defaultBlockState))
-                            .layer(l -> l.weight(3).mat(RockSalt).size(2, 4))
+                            .layer(l -> l.weight(3).mat(Sylvite).size(2, 4))
                             .layer(l -> l.weight(2).mat(Salt).size(1, 1))
                             .layer(l -> l.weight(1).mat(Lepidolite).size(1, 1))
                             .layer(l -> l.weight(1).mat(Spodumene).size(1, 1))

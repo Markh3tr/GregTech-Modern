@@ -473,12 +473,13 @@ public class FirstDegreeMaterials {
                 .components(Aluminium, 2, Magnesium, 3, Silicon, 3, Oxygen, 12)
                 .buildAndRegister();
 
-        RockSalt = new Material.Builder(GTCEu.id("rock_salt"))
+        Sylvite = new Material.Builder(GTCEu.id("sylvite"))
                 .gem(1).ore(2, 1)
                 .color(0xffeae1).secondaryColor(0xF0C8C8).iconSet(FINE)
                 .flags(NO_SMASHING)
                 .components(Potassium, 1, Chlorine, 1)
                 .buildAndRegister();
+        RockSalt = Sylvite;
 
         RTMAlloy = new Material.Builder(GTCEu.id("rtm_alloy"))
             .ingot().fluid()
@@ -504,7 +505,7 @@ public class FirstDegreeMaterials {
                 .components(Chromium, 1, Aluminium, 2, Oxygen, 3)
                 .buildAndRegister();
 
-        Salt = new Material.Builder(GTCEu.id("halite (salt)"))
+        Salt = new Material.Builder(GTCEu.id("salt"))
                 .gem(1).ore(2, 1)
                 .color(0xFAFAFA).iconSet(FINE)
                 .flags(NO_SMASHING)

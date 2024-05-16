@@ -203,14 +203,14 @@ public class MaterialFlagAddition {
         oreProp = Realgar.getProperty(PropertyKey.ORE);
         oreProp.setOreByProducts(Sulfur, Antimony, Barite);
 
-        oreProp = RockSalt.getProperty(PropertyKey.ORE);
+        oreProp = Sylvite.getProperty(PropertyKey.ORE);
         oreProp.setOreByProducts(Salt, Borax);
 
         oreProp = Ruby.getProperty(PropertyKey.ORE);
         oreProp.setOreByProducts(Chromium, GarnetRed, Chromium);
 
         oreProp = Salt.getProperty(PropertyKey.ORE);
-        oreProp.setOreByProducts(RockSalt, Borax);
+        oreProp.setOreByProducts(Sylvite, Borax);
 
         oreProp = Saltpeter.getProperty(PropertyKey.ORE);
         oreProp.setOreByProducts(Saltpeter, Potassium, Salt);

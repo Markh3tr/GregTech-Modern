@@ -383,6 +383,8 @@ public class LangHandler {
         replace(provider, GTMaterials.Cooperite.getUnlocalizedName(), "Sheldonite"); //greg's humor is now on 1.19...
         replace(provider, GTMaterials.HSSG.getUnlocalizedName(), "HSS-G");
         replace(provider, GTMaterials.HSSE.getUnlocalizedName(), "HSS-E");
+        //replace(provider, GTMaterials.Polytetrafluoroethylene.getUnlocalizedName(), "HSS-E");
+
         replace(provider, GTMaterials.HSSS.getUnlocalizedName(), "HSS-S");
         replace(provider, GTMaterials.RTMAlloy.getUnlocalizedName(), "RTM Alloy");
 
@@ -390,6 +392,8 @@ public class LangHandler {
         replace(provider, GTMaterials.PCBCoolant.getUnlocalizedName(), "PCB Coolant");
         replace(provider, GTMaterials.TungstenSteel.getUnlocalizedName(), "Tungstensteel");
         replace(provider, GTMaterials.Iron3Chloride.getUnlocalizedName(), "Ferric Chloride");
+        replace(provider, GTMaterials.Salt.getUnlocalizedName(), "Halite (salt)");
+
         replace(provider, GTMaterials.OilHeavy.getUnlocalizedName(), "Heavy Oil");
         replace(provider, "block.gtceu.oil_heavy", "Heavy Oil");
         replace(provider, GTMaterials.OilLight.getUnlocalizedName(), "Light Oil");
@@ -479,16 +483,6 @@ public class LangHandler {
         provider.add("item.gtceu.sugar_gem", "Sugar Cube");
         provider.add("item.gtceu.chipped_sugar_gem", "Small Sugar Cubes");
         provider.add("item.gtceu.flawed_sugar_gem", "Tiny Sugar Cube");
-        provider.add("item.gtceu.tiny_rock_salt_dust", "Tiny Pile of Sylvite");
-        provider.add("item.gtceu.small_rock_salt_dust", "Small Pile of Sylvite");
-        provider.add("item.gtceu.impure_rock_salt_dust", "Impure Pile of Sylvite");
-        provider.add("item.gtceu.pure_rock_salt_dust", "Purified Pile of Sylvite");
-        provider.add("item.gtceu.rock_salt_dust", "Sylvite");
-        provider.add("item.gtceu.tiny_salt_dust", "Tiny Pile of Halite (Salt)");
-        provider.add("item.gtceu.small_salt_dust", "Small Pile of Halite (Salt)");
-        provider.add("item.gtceu.impure_salt_dust", "Impure Pile of Halite (Salt)");
-        provider.add("item.gtceu.pure_salt_dust", "Purified Pile of Halite (Salt)");
-        provider.add("item.gtceu.salt_dust", "Halite (Salt)");
         provider.add("item.gtceu.tiny_wood_dust", "Tiny Pile of Wood Pulp");
         provider.add("item.gtceu.small_wood_dust", "Small Pile of Wood Pulp");
         provider.add("item.gtceu.wood_dust", "Wood Pulp");

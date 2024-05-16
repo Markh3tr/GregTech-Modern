@@ -22,9 +22,9 @@ import com.tterrag.registrate.util.entry.BlockEntry;
 import com.tterrag.registrate.util.entry.ItemEntry;
 import net.minecraft.core.Direction;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.world.damagesource.DamageSources;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -158,6 +158,8 @@ public class ForgeCommonEventListener {
             if (mapping.getKey().equals(GTCEu.id("tungstensteel_coil_block"))) {
                 mapping.remap(GTBlocks.COIL_RTMALLOY.get().asItem());
             }
+            if(mapping.getKey().toString().contains("rock_salt"))
+                mapping.remap(event.getMappings(Registries.ITEM, GTCEu.MOD_ID).get(0).getRegistry().getValue(new ResourceLocation(mapping.getKey().getNamespace(),mapping.getKey().toString().replace("rock_salt","sylvite"))));
         });
 
         for (TagPrefix prefix : TagPrefix.values()) {
